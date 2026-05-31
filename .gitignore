@@ -11,3 +11,9 @@ wheels/
 
 #Logging JSON file
 game_state.jsonl
+
+vcxsrv/
+
+.venv/
+
+workspace.code-workspace
