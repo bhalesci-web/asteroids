@@ -17,3 +17,5 @@ vcxsrv/
 .venv/
 
 workspace.code-workspace
+
+game_events.jsonl
