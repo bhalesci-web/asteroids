@@ -7,8 +7,9 @@ from circleshape import CircleShape
 
 class Player(CircleShape):
     def __init__(self, x, y, radius):
-        super().__init__(x, y, PLAYER_RADIUS)
+        super().__init__(x, y, radius)
         self.rotation = 0
+        self.radius = PLAYER_RADIUS
     
     # in the Player class
     def triangle(self) -> list[pygame.Vector2]:
