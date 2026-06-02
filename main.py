@@ -38,6 +38,7 @@ def main():
         screen.fill("black")
 
         updatable.update(dt)
+        player.player_shoot_cooldown -= dt
         for draw in drawable:
             draw.draw(screen)
         
