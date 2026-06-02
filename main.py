@@ -49,6 +49,13 @@ def main():
                 sys.exit()
             else:
                 continue
+        
+        for asteroid in asteroids:
+            for shot in shots:
+                if asteroid.collides_with(shot) == True:
+                    log_event("asteroid_shot")
+                    shot.kill()
+                    asteroid.split()
 
         
         pygame.display.flip()
