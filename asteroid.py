@@ -42,6 +42,3 @@ class Asteroid(CircleShape):
             asteroid_2 = Asteroid(self.position.x, self.position.y, new_radius)
             asteroid_1.velocity = new_velocity_1
             asteroid_2.velocity = new_velocity_2
-
-            #(new_radius, self.position, new_velocity_1)
-            #AsteroidField.spawn(new_radius, self.position, new_velocity_2)
